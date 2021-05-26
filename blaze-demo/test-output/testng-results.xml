@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-05-25T12:01:23Z" name="Default suite" finished-at="2021-05-25T12:01:29Z" duration-ms="5348">
+    <groups>
+    </groups>
+    <test started-at="2021-05-25T12:01:23Z" name="Default test" finished-at="2021-05-25T12:01:29Z" duration-ms="5348">
+      <class name="com.ui.automation.tests.BookFlight">
+        <test-method is-config="true" signature="InitializeDriver()[pri:0, instance:com.ui.automation.tests.BookFlight@2474f125]" started-at="2021-05-25T17:31:20Z" name="InitializeDriver" finished-at="2021-05-25T17:31:23Z" duration-ms="3440" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InitializeDriver -->
+        <test-method is-config="true" signature="NavigateURL()[pri:0, instance:com.ui.automation.tests.BookFlight@2474f125]" started-at="2021-05-25T17:31:25Z" name="NavigateURL" finished-at="2021-05-25T17:31:26Z" duration-ms="1566" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NavigateURL -->
+        <test-method signature="Test_SearchAndBookFlight(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.ui.automation.tests.BookFlight@2474f125]" started-at="2021-05-25T17:31:26Z" name="Test_SearchAndBookFlight" data-provider="DP_Bookflight" finished-at="2021-05-25T17:31:29Z" duration-ms="2093" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_001]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Search and book flights for the given cities]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Paris]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Rome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_SearchAndBookFlight -->
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:com.ui.automation.tests.BookFlight@2474f125]" started-at="2021-05-25T17:31:29Z" name="CloseBrowser" finished-at="2021-05-25T17:31:29Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- com.ui.automation.tests.BookFlight -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
